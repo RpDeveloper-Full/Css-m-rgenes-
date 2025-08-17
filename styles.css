@@ -1,0 +1,27 @@
+/* Márgenes generales */
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Márgenes en un párrafo */
+.parrafo1 {
+  margin: 40px; /* 40px en todos los lados */
+  background-color: #f4bebe;
+  padding: 10px;
+}
+
+.parrafo2 {
+  margin: 10px 50px; /* 10px arriba/abajo y 50px izquierda/derecha */
+  background-color: #bee3f4;
+  padding: 10px;
+}
+
+/* Márgenes automáticos para centrar */
+.caja {
+  width: 200px;
+  margin: 20px auto; /* Centrado horizontal */
+  padding: 15px;
+  background-color: #c7f4be;
+  text-align: center;
+}
